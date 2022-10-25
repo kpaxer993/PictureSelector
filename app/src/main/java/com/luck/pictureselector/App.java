@@ -33,7 +33,6 @@ import coil.memory.MemoryCache;
  */
 
 public class App extends Application implements IApp, CameraXConfig.Provider, ImageLoaderFactory {
-    private static final String TAG = App.class.getSimpleName();
 
     @Override
     public void onCreate() {
