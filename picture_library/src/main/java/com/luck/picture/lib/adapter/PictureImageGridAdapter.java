@@ -269,7 +269,7 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
                     changeCheckboxState(contentHolder, image);
                 });
             }
-            contentHolder.contentView.setOnClickListener(v -> {
+            contentHolder.ivPicture.setOnClickListener(v -> {
                 if (config.isMaxSelectEnabledMask) {
                     if (image.isMaxSelectEnabledMask()) {
                         return;
